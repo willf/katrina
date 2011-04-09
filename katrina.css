@@ -1,0 +1,100 @@
+/* style sheet for mission interface */
+body {
+  /* background: #666633; */
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color : white;
+  margin: 0px;
+}
+
+
+.imageViewer
+	{	
+           /* position: absolute; */
+            top: 0px;
+            left: 0px;
+             margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .imageViewer .well, .imageViewer .surface
+        {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            cursor: default;
+            /* border: 1px solid black; */
+        }
+        
+        .imageViewer .well
+        {
+            background-color: gray;
+            background-image: url("none.png");
+            overflow: hidden;
+        }
+        
+        .imageViewer .surface        
+        {
+            background-color: transparent;
+            /* background-image: url("center.gif"); */
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+        .imageViewer .status
+        {
+            display: none;
+        }
+
+	
+        
+        .imageViewer .well .tile
+            {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                display: block;
+            }
+            
+         .zoom_control .zoom        
+        {
+            background-color: transparent;
+            position: absolute;
+            top: 0px; 
+            left: 0px;
+            width: 1in;
+            height: .5in;
+            margin: 0;
+            padding: 4px 0 0 4px;
+           filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75;	
+
+     	}
+        
+        .zoom_control .zoom img
+            {
+                text-decoration: none;
+            }
+        
+
+
+
+.colophon {
+position: absolute;
+top:  80%;
+left: 20%;
+margin: 0px;
+padding: 5px;
+width: 60%; 
+background-color: #888;
+font-size: 10pt;
+filter:alpha(opacity=85);-moz-opacity:.85;opacity:.85;	
+}
+
